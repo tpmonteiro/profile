@@ -1,0 +1,65 @@
+body {
+    background-color: antiquewhite;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 15px;
+    background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 10%), url(Images/bg1.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 150px;
+    color: black;
+    text-shadow: 1px 1px 5px grey;
+}
+
+/* makes photo round */
+.main_photo{
+    border-radius: 50%;
+}
+
+
+/* makes all divs display in block*/
+div {
+    display: block
+}
+
+
+/* makes the size of the main container*/
+.container {
+    width: 800px;
+    margin: 30px auto;
+}
+
+/* makes all the text inside the divs be centered */
+.text-center {
+    text-align: center;
+}
+
+/* aplies changes to all the cards  */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+ul {
+    display: block;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+li {
+    display: inline;
+    margin: 100px;
+}
+
+table {
+    width: 300px;
+    margin: auto;
+}
+
+p {
+line-height: 20px;
+}
